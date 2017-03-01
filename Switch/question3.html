@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activit12</title>
+</head>
+<body>
+	<script language="javascript"type="text/javascript">
+		function answer () {
+			while (true) {
+				var guess = prompt("What's your guess?");
+				if (guess  == "Piano") {
+					alert("Piano");
+					window.location="question4.html"
+					return false;
+				}
+ 				else {
+ 					alert("Wrong Answer");
+ 					return true;
+ 				}
+
+			}
+
+		}
+		
+
+	</script>
+	<h2>What is this</h2>
+	<img src="Guess3.jpg" alt="Question3">
+	<button type="button" onclick="answer()"> Click Answer</button>
+</body>
+</html>
